@@ -2,12 +2,6 @@ import React from 'react'
 
 import React, { useState } from 'react'
 
-interface FormData {
-  name: string
-  email: string
-  message: string
-}
-
 const LandingPage: React.FC = () => {
   const [formData, setFormData] = useState<FormData>({
     name: '',
